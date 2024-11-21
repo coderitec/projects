@@ -1,0 +1,13 @@
+.footer {
+  background-color: fuchsia;
+}
+
+.footer ul{
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.header{
+  background-color: blue;
+}
