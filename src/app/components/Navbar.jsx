@@ -8,6 +8,10 @@ export default function Navbar() {
             <li>home</li>
             </Link>
 
+            <Link href="/shop">
+            <li>shop</li>
+            </Link>
+
             <Link href="/about">
             <li>about</li>
             </Link>
