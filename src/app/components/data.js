@@ -50,7 +50,7 @@ export const fruits = [
         category: "Fruits",
         price: 200,
         description: "Tropical and tangy pineapples, perfect for smoothies.",
-        imageUrl: "https://images.unsplash.com/photo-1615734337277-dad9a7e99d1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBpbmVhcHBsZXN8ZW58MHx8MHx8fDA%3D",
+        imageUrl: "/fleurs.jpg",
         rating: 4.6,
         stock: 70,
         brand: "Tropical Treat"

@@ -1,16 +1,4 @@
 import Image from "next/image";
-<<<<<<< HEAD
-
-export default function Home() {
-  return (
-    <div>
-      <div>Home</div>
-    </div>
-  );
-}
-
-
-=======
 import pic from './components/flowers.jpeg'
 
 export default function Home() {
@@ -29,4 +17,4 @@ export default function Home() {
     </main>
   )
 }
->>>>>>> 1b51ae8ea8e08596ad8bbed7460a51867efd4679
+
