@@ -13,7 +13,7 @@ export const fruits = [
     {
       id: 2,
       name: "Banana",
-      category: "Fruits",
+      category: "Vegetables",
       price: 50,
       description: "Sweet and ripe bananas, great for energy boosts.",
       imageUrl: "https://plus.unsplash.com/premium_photo-1664527307725-362b589c406d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFuYW5hc3xlbnwwfHwwfHx8MA%3D%3D",
@@ -35,7 +35,7 @@ export const fruits = [
     
     {
         id: 4,
-        name: "Strawberry",
+        name: "Straw berry",
         category: "Fruits",
         price: 300,
         description: "Fresh and juicy strawberries, ideal for desserts.",
@@ -47,7 +47,7 @@ export const fruits = [
       {
         id: 5,
         name: "Pineapple",
-        category: "Fruits",
+        category: "Vegetables",
         price: 200,
         description: "Tropical and tangy pineapples, perfect for smoothies.",
         imageUrl: "/fleurs.jpg",
@@ -80,7 +80,7 @@ export const fruits = [
       {
         id: 8,
         name: "Watermelon",
-        category: "Fruits",
+        category: "Vegetables",
         price: 500,
         description: "Refreshing and hydrating watermelons, great for summer.",
         imageUrl: "https://media.istockphoto.com/id/1975501492/photo/group-of-old-tools-hanging-on-white-paint-wall.webp?a=1&b=1&s=612x612&w=0&k=20&c=GdN9GhrqgpzZVkmBvixtE3o_uYr6_SswgsWDQarL9hk=",
@@ -102,7 +102,7 @@ export const fruits = [
       {
         id: 10,
         name: "Kiwi",
-        category: "Fruits",
+        category: "Vegetables",
         price: 270,
         description: "Exotic and tangy kiwis, full of nutrients.",
         imageUrl: "https://media.istockphoto.com/id/186858235/photo/kiwifruit.webp?a=1&b=1&s=612x612&w=0&k=20&c=AydcOjIAJAUWMohMRVGbr5xSLGqPaaDKWZdMHcWAK9U=",
@@ -146,7 +146,7 @@ export const fruits = [
       {
         id: 14,
         name: "Pomegranate",
-        category: "Fruits",
+        category: "Vegetables",
         price: 300,
         description: "Nutritious and juicy pomegranates, full of antioxidants.",
         imageUrl: "https://plus.unsplash.com/premium_photo-1668076515507-c5bc223c99a4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UG9tZWdyYW5hdGV8ZW58MHx8MHx8fDA%3D",
@@ -179,7 +179,7 @@ export const fruits = [
       {
         id: 17,
         name: "Coconut",
-        category: "Fruits",
+        category: "Vegetables",
         price: 100,
         description: "Fresh coconuts, great for hydration and cooking.",
         imageUrl: "https://plus.unsplash.com/premium_photo-1675040830227-9f18e88fd1f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q29jb251dHxlbnwwfHwwfHx8MA%3D%3D",
