@@ -19,7 +19,7 @@ export default function ShopPage() {
     ))
   return (
     <div>
-      <SearchShop/>
+      <SearchShop holder='Search for fruit or vegetable'/>
     <div className={king.prod}>
         {productCat}
     </div>
