@@ -1,3 +1,4 @@
+import Button from "@/app/components/Button";
 import { products } from "@/app/components/files"
 import Image from "next/image"
 import { CgGirl } from "react-icons/cg";
@@ -12,6 +13,8 @@ export default function ProductPage({params}) {
         <Image src={`https://robohash.org/${productData.imageUrl}`} alt={productData.name} width={400} height={400}/>
         <p>&#8358;{productData.price.toLocaleString()}</p>
 
+        <div className="flex items-start space-x-4">
+
         <div className="py-3">
             <h3>Product Description</h3>
 
@@ -24,6 +27,8 @@ export default function ProductPage({params}) {
             ))}
             </ul>
         </div>
+            <Button/>
+    </div>
 
     </div>
   )

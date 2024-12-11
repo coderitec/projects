@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Mobile from "./components/Mobile";
+import { SidebarProvider } from "./providers";
+import Cart from "./components/Cart";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,8 +30,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <SidebarProvider>
+
         <Navbar/>
         <Mobile/>
+        <Cart/>
 
         <div className="min-h-screen">
 
@@ -37,6 +42,7 @@ export default function RootLayout({ children }) {
         </div>
 
         <Footer/>
+        </SidebarProvider>
       </body>
     </html>
   );
